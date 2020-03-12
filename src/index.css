@@ -1,0 +1,50 @@
+@font-face {
+ 
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {  
+  background-color: black;
+  color: white;
+  
+}
+.titteli{
+  font-family: 'Dystopia', sans-serif; 
+  background-image: url(images/25.jpg);  
+  
+  
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tausta{
+  background-color: rgb(252, 252, 252);
+    background-image: url(images/gplay.png);
+}
+.ylos{
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 100;
+}
+
+.kuvateksti{  
+  color: rgb(209, 209, 209);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.checked {
+  color: orange;
+}
+
+.list{
+  list-style-type:none;
+}
