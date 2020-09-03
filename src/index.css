@@ -1,5 +1,5 @@
 @font-face {
- 
+
 }
 * {
   margin: 0;
@@ -7,16 +7,16 @@
   box-sizing: border-box;
 
 }
-body {  
+body {
   background-color: black;
   color: white;
   
 }
 .titteli{
-  font-family: 'Dystopia', sans-serif; 
-  background-image: url(images/25.jpg);  
-  
-  
+  font-family: 'Dystopia', sans-serif;
+  background-image: url(images/25.jpg);
+
+
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -25,7 +25,7 @@ body {
   background-size: cover;
 }
 .tausta{
-  background-color: rgb(3, 4, 26);
+  background-color: black;
     background-image: url(images/gplay.png);
 }
 .ylos{
@@ -35,7 +35,7 @@ body {
   z-index: 100;
 }
 
-.kuvateksti{  
+.kuvateksti{
   color: rgb(209, 209, 209);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgb(0, 0, 0);
