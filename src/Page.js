@@ -53,7 +53,7 @@ export default function App() {
         <div id="start" className="tausta text-center">
             <Button href="#start" className="  ylos">^^^</Button>
             <Navbar expand="lg" className="tausta">
-                <Navbar.Brand  href="https://jessehuttunen.github.io/portfolio">Jesse Huttunen</Navbar.Brand>
+                <Navbar.Brand href="https://jessehuttunen.github.io/portfolio">Jesse Huttunen</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
@@ -114,8 +114,8 @@ export default function App() {
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star"></span></li>
                                 <li>React (ml. Node.js ja Rest apien
-                                käyttö)
-                        <span class="fa fa-star checked"></span>
+                                    käyttö)
+                                    <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
@@ -200,7 +200,7 @@ export default function App() {
                                     <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span></li>
                                 <li>Mobile app: PWA, OnsenUI
-ja Corona <span class="fa fa-star checked"></span>
+                                    ja Corona <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
@@ -251,9 +251,9 @@ ja Corona <span class="fa fa-star checked"></span>
                 <Container>
 
 
-                    <h3>Mediatekniikan insinööri</h3>
+                    <h3>Tieto- ja viestintätekniikan insinööri</h3>
                     <p>08/2017-1/2021</p>
-                    <p>Tieto- ja viestintätekniikan insinöörin tutkinto meditekniikan suuntautumisella, Jyväskylän ammattikorkeakoulu</p>
+                    <p>Tieto- ja viestintätekniikan insinöörin tutkinto mediatekniikan suuntautumisella, Jyväskylän ammattikorkeakoulu</p>
                     <Button
                         onClick={() => setOpen(!open)}
                         aria-controls="AMKK"
@@ -366,7 +366,7 @@ ja Corona <span class="fa fa-star checked"></span>
                 </Container>
             </Jumbotron>
 
-            
+
 
             <Jumbotron fluid>
                 <Container>
@@ -376,7 +376,7 @@ ja Corona <span class="fa fa-star checked"></span>
                     <ul className="list">
                         <li>Taitto ja graafinen suunnittelu useissa eri projekteissa Adoben sovelluksilla (Indesign, Illustrator, Photoshop ja Lightroom), Vuosikertomus kirja, Norssialbumi, julisteita, stipendejä yms.</li>
                         <li>Wordpressillä toteutettujen verkkosivun ylläpito, sekä uusien vuosikertomus artikkelien lisäys sivuille.</li>
-                        <li>Norssiolympialaiset tapahtuman valokuvaus.</li>                        
+                        <li>Norssiolympialaiset tapahtuman valokuvaus.</li>
                     </ul>
                 </Container>
             </Jumbotron>
@@ -404,17 +404,17 @@ ja Corona <span class="fa fa-star checked"></span>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
-                    <p  className="pt-3">Koulun opinnäytetyönä Preonille tehty nimipäivä sivusto. Sivusto on toteutettu pääosin PHP:llä ja SQL:llä, ja hieman JavaScriptilla. Sivuston teosta kirjoitettu opinnäytetyö löytyy osoitteesta: <a href="http://urn.fi/URN:NBN:fi:amk-202101251475">http://urn.fi/URN:NBN:fi:amk-202101251475</a>. Itse sivusto löytyy osoitteesta: <a href="https://www.paivyri.fi/info/nimipaivat/">https://www.paivyri.fi/info/nimipaivat/</a>.</p>
+                    <p className="pt-3">Koulun opinnäytetyönä Preonille tehty nimipäivä sivusto. Sivusto on toteutettu pääosin PHP:llä ja SQL:llä, ja hieman JavaScriptilla. Sivuston teosta kirjoitettu opinnäytetyö löytyy osoitteesta: <a href="http://urn.fi/URN:NBN:fi:amk-202101251475">http://urn.fi/URN:NBN:fi:amk-202101251475</a>. Itse sivusto löytyy osoitteesta: <a href="https://www.paivyri.fi/info/nimipaivat/">https://www.paivyri.fi/info/nimipaivat/</a>.</p>
                 </Container>
             </Jumbotron>
 
 
-            <Jumbotron fluid>    
+            <Jumbotron fluid>
                 <Container>
                     <h3>Wapice</h3>
                     <p>Koulun kolmannen vuoden projektina toteutin Wapicelle React pohjaisia prototyyppejä pörssisähkön hintaennusteiden sekä sähkönkulutusdatan visualisointiin.
-                    Valitettavasti projektin tuotoksia koskee NDA, tästä johtuen projektin tuloksia ei voi esitellä.
-                Wapice oli erittäin tyytyväinen projekti ryhmämme toimintaan ja tuotoksiin, ja he aikovat jatkokehittää protyypeistä julkaisukelpoisia versioita.</p>
+                        Valitettavasti projektin tuotoksia koskee NDA, tästä johtuen projektin tuloksia ei voi esitellä.
+                        Wapice oli erittäin tyytyväinen projekti ryhmämme toimintaan ja tuotoksiin, ja he aikovat jatkokehittää protyypeistä julkaisukelpoisia versioita.</p>
                 </Container>
             </Jumbotron>
 
@@ -454,7 +454,7 @@ ja Corona <span class="fa fa-star checked"></span>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
-                    <p  className="pt-3">Koulun toisen vuoden projektina tehty Tori.fin kaltainen kauppapaikka käytetylle elektroniikalle. Sivustot toteutettu pääosin PHP:llä ja SQL:llä, ja hieman javascriptilla. Tein itse myös kaikki projektissa olevat kuvakkeet ja logot.</p>
+                    <p className="pt-3">Koulun toisen vuoden projektina tehty Tori.fin kaltainen kauppapaikka käytetylle elektroniikalle. Sivustot toteutettu pääosin PHP:llä ja SQL:llä, ja hieman javascriptilla. Tein itse myös kaikki projektissa olevat kuvakkeet ja logot.</p>
                 </Container>
             </Jumbotron>
 
@@ -473,7 +473,7 @@ ja Corona <span class="fa fa-star checked"></span>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
-                    <p  className="pt-3">Koulun valinnaisen 3D-kurssin projektina tehty F1-aiheinen 3D-mallinus autosta, työkaluista ja rakennuksista. 3d-mallinnus tehty Blender ohjelmalla.</p>
+                    <p className="pt-3">Koulun valinnaisen 3D-kurssin projektina tehty F1-aiheinen 3D-mallinus autosta, työkaluista ja rakennuksista. 3d-mallinnus tehty Blender ohjelmalla.</p>
                 </Container>
             </Jumbotron>
 
@@ -551,7 +551,7 @@ ja Corona <span class="fa fa-star checked"></span>
                         </Carousel.Item>
                     </Carousel>
                     <p className="pt-3">Koulun videoeditointi kurssilla tehty Rocky parodia video, käyttäen aiemmin TyöntaloNamolle kuvaamiani materiaaleja.
-                Pääosassa näyttelee Dennis Tammela. <a href="https://www.youtube.com/watch?v=xslfXvbqKrY">Linkki</a> </p>
+                        Pääosassa näyttelee Dennis Tammela. <a href="https://www.youtube.com/watch?v=xslfXvbqKrY">Linkki</a> </p>
                 </Container>
             </Jumbotron>
 
@@ -621,7 +621,7 @@ ja Corona <span class="fa fa-star checked"></span>
 
 
             <Container>
-                <p className="pb-4">Copyright © 2021 Jesse Huttunen. </p>
+                <p className="pb-4">Copyright © 2022 Jesse Huttunen. </p>
                 <p className="pb-4">Nämä sivut on kirjoitettu perus HTML/CSS:llä, Reactilla, Bootstrapilla ja julkaistu Githubin pages alustalla.</p>
             </Container>
 
