@@ -6,7 +6,7 @@ class Footter extends React.Component {
   render() {
     return (
       <div>
-        <p>Jesse Huttunen</p>
+        <h1></h1>
       </div>
     );
   }

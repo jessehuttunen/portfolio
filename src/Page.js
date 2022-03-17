@@ -42,8 +42,8 @@ import AMKK2 from './images/amkk2.png';
 import AMKK3 from './images/amkk3.png';
 import Mina from './images/mina.jpg';
 import Tausta from './images/25.jpg';
-
-
+import Nimmarit from './images/nimmarit.png';
+import Formula from './images/Laajakuva.png';
 
 
 export default function App() {
@@ -53,7 +53,7 @@ export default function App() {
         <div id="start" className="tausta text-center">
             <Button href="#start" className="  ylos">^^^</Button>
             <Navbar expand="lg" className="tausta">
-                <Navbar.Brand >Jesse Huttunen</Navbar.Brand>
+                <Navbar.Brand  href="https://jessehuttunen.github.io/portfolio">Jesse Huttunen</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
@@ -78,19 +78,11 @@ export default function App() {
 
 
                 <Container className="text-left">
-                    <Image className="d-block w-25 m-auto" src={Mina} rounded />
-                    <ul className="list">
-                        <li>Nimi: Jesse Rasmus Huttunen</li>
-                        <li>Asuinpaikka: Jyväskylä</li>
-                        <li>Lähtöisin Pyhäjärveltä</li>
-                        <li>s. 30.03.1994</li>
-                        <li>B ajokortti.</li>
-                        <li>Englannin kielen taito hyvä</li>
-                    </ul>
-                    <p>Olen kolmannen vuoden mediatekniikan opiskelija Jyväskylän ammattikorkeakoulussa.</p>
-                    <p>Koodailusta minulla on kokemusta useilla eri kielillä. Mediateknikkona pääpaino verkkopohjaisissa kielissä kuten javascript, php, react ja sql. Hallitsen kuitenkin myös ohjelmointi kieliäkin kuten esim. C# ja Python.</p>
+                    <Image className="d-block w-25 m-auto pb-3" src={Mina} roundedCircle />
+                    <p>Olen vasta valmistunut mediatekniikan opiskelija Jyväskylän ammattikorkeakoulusta.</p>
+                    <p>Koodailusta minulla on kokemusta useilla eri kielillä. Mediateknikkona pääpaino verkkopohjaisissa kielissä kuten JavaScript, PHP, React ja SQL. Hallitsen kuitenkin myös tavallisia ohjelmointikieliäkin kuten esim. C# ja Python.</p>
                     <p>Tavoitteenani on olla niin sanottu "joka paikan höylä", eli ei ole merkitystä onko koodaus Front- vai Backendiä, koitan aina saada aikaiseksi mahdollisimman hyvää jälkeä.</p>
-                    <p>Pidän myös visuaalisesta työstä, graaffisesta-, UI- sekä UX suunnittelusta, video-/valokuvaus ja editointi, kuin myös 3D mallintamisestakin.</p>
+                    <p>Pidän myös visuaalisesta työstä, graafisesta-, UI- sekä UX suunnittelusta, video-/valokuvaus ja editointi, kuin myös 3D mallintamisestakin.</p>
                     <p> Luonteeltani olen hiljainen, oma-aloitteinen, työmyyrä.</p>
                     <p> Hyödyllisinä harrastuksina minulla on puutöiden teko, valo-/videokuvaus ja kaikenlainen tietokoneiden rassaus.</p>
                     <p> Muina harrastuksina minulla on mm. eläimet, veneily/kalastus, elokuvat ja videopelit.</p>
@@ -260,7 +252,7 @@ ja Corona <span class="fa fa-star checked"></span>
 
 
                     <h3>Mediatekniikan insinööri</h3>
-                    <p>08/2017-xxxx</p>
+                    <p>08/2017-1/2021</p>
                     <p>Tieto- ja viestintätekniikan insinöörin tutkinto meditekniikan suuntautumisella, Jyväskylän ammattikorkeakoulu</p>
                     <Button
                         onClick={() => setOpen(!open)}
@@ -352,13 +344,6 @@ ja Corona <span class="fa fa-star checked"></span>
 
 
 
-
-            <Jumbotron fluid>
-
-            </Jumbotron>
-
-
-
             <Jumbotron fluid className="titteli">
                 <Container>
                     <h1 id="tyokokemus" className="text-center  display-4 text-light">Työkokemus</h1>
@@ -381,6 +366,21 @@ ja Corona <span class="fa fa-star checked"></span>
                 </Container>
             </Jumbotron>
 
+            
+
+            <Jumbotron fluid>
+                <Container>
+                    <h3>Jyväskylän normaalikoulu: AMK työharjoittelu</h3>
+                    <p>01.04.2020-30.09.2020</p>
+                    <p>Työkuvaus:</p>
+                    <ul className="list">
+                        <li>Taitto ja graafinen suunnittelu useissa eri projekteissa Adoben sovelluksilla (Indesign, Illustrator, Photoshop ja Lightroom), Vuosikertomus kirja, Norssialbumi, julisteita, stipendejä yms.</li>
+                        <li>Wordpressillä toteutettujen verkkosivun ylläpito, sekä uusien vuosikertomus artikkelien lisäys sivuille.</li>
+                        <li>Norssiolympialaiset tapahtuman valokuvaus.</li>                        
+                    </ul>
+                </Container>
+            </Jumbotron>
+
 
 
             <Jumbotron fluid className="titteli">
@@ -388,13 +388,33 @@ ja Corona <span class="fa fa-star checked"></span>
                     <h1 id="projekteja" className="text-center  display-4 text-light ">Projekteja</h1>
                 </Container>
             </Jumbotron>
-            <Jumbotron fluid>
 
+            <Jumbotron fluid>
+                <Container>
+                    <h3>Nimipäivät</h3>
+                    <Carousel>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={Nimmarit}
+                                alt="Nimipäiväsivuston etusivu"
+                            />
+                            <Carousel.Caption>
+                                <h3 className="kuvateksti">Etusivu</h3>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    </Carousel>
+                    <p  className="pt-3">Koulun opinnäytetyönä Preonille tehty nimipäivä sivusto. Sivusto on toteutettu pääosin PHP:llä ja SQL:llä, ja hieman JavaScriptilla. Sivuston teosta kirjoitettu opinnäytetyö löytyy osoitteesta: <a href="http://urn.fi/URN:NBN:fi:amk-202101251475">http://urn.fi/URN:NBN:fi:amk-202101251475</a>. Itse sivusto löytyy osoitteesta: <a href="https://www.paivyri.fi/info/nimipaivat/">https://www.paivyri.fi/info/nimipaivat/</a>.</p>
+                </Container>
+            </Jumbotron>
+
+
+            <Jumbotron fluid>    
                 <Container>
                     <h3>Wapice</h3>
                     <p>Koulun kolmannen vuoden projektina toteutin Wapicelle React pohjaisia prototyyppejä pörssisähkön hintaennusteiden sekä sähkönkulutusdatan visualisointiin.
                     Valitettavasti projektin tuotoksia koskee NDA, tästä johtuen projektin tuloksia ei voi esitellä.
-                Wapice oli erittäin tyytyväinen projekti ryhmämme toimintaan ja tuotoksiin, ja he aikovat jatko kehittää protyypeistä julkaisu kelpoisia versioita.</p>
+                Wapice oli erittäin tyytyväinen projekti ryhmämme toimintaan ja tuotoksiin, ja he aikovat jatkokehittää protyypeistä julkaisukelpoisia versioita.</p>
                 </Container>
             </Jumbotron>
 
@@ -434,8 +454,26 @@ ja Corona <span class="fa fa-star checked"></span>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
-                    <p>Koulun toisen vuoden projektina tehty Tori.fin kaltainen kauppapaikka käytetylle elektroniikalle. Sivustot toteutettu pääosin PHP:llä ja SQL:llä, ja hieman javascriptilla. Tein itse myös kaikki projektissa olevat kuvakkeet ja logot.
-                    <a href="https://student.labranet.jamk.fi/~L5321/ttms0700/eletorix/">Linkki</a></p>
+                    <p  className="pt-3">Koulun toisen vuoden projektina tehty Tori.fin kaltainen kauppapaikka käytetylle elektroniikalle. Sivustot toteutettu pääosin PHP:llä ja SQL:llä, ja hieman javascriptilla. Tein itse myös kaikki projektissa olevat kuvakkeet ja logot.</p>
+                </Container>
+            </Jumbotron>
+
+            <Jumbotron fluid>
+                <Container>
+                    <h3>Eletorix</h3>
+                    <Carousel>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={Formula}
+                                alt="3D F1"
+                            />
+                            <Carousel.Caption>
+                                <h3 className="kuvateksti">3D Formula 1</h3>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    </Carousel>
+                    <p  className="pt-3">Koulun valinnaisen 3D-kurssin projektina tehty F1-aiheinen 3D-mallinus autosta, työkaluista ja rakennuksista. 3d-mallinnus tehty Blender ohjelmalla.</p>
                 </Container>
             </Jumbotron>
 
@@ -454,8 +492,7 @@ ja Corona <span class="fa fa-star checked"></span>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
-                    <p> Koulun ensimmäisen vuoden projektina toteutettu javascript/jquery pohjainen peli lapsille.
-                    <a href="https://student.labranet.jamk.fi/~L5321/Maapeli/Maapeli.html">Linkki</a></p>
+                    <p className="pt-3"> Koulun ensimmäisen vuoden projektina toteutettu JavaScript/Jquery pohjainen peli lapsille.</p>
                 </Container>
             </Jumbotron>
 
@@ -494,7 +531,27 @@ ja Corona <span class="fa fa-star checked"></span>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
-                    <p>TyöntaloNamolla toteutettuja esitteitä.</p>
+                    <p className="pt-3">TyöntaloNamolla toteutettuja esitteitä.</p>
+                </Container>
+            </Jumbotron>
+
+            <Jumbotron fluid>
+                <Container>
+                    <h3>Roki</h3>
+                    <Carousel>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={Roki}
+                                alt="Roki"
+                            />
+                            <Carousel.Caption>
+                                <h3 className="kuvateksti">Roki</h3>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    </Carousel>
+                    <p className="pt-3">Koulun videoeditointi kurssilla tehty Rocky parodia video, käyttäen aiemmin TyöntaloNamolle kuvaamiani materiaaleja.
+                Pääosassa näyttelee Dennis Tammela. <a href="https://www.youtube.com/watch?v=xslfXvbqKrY">Linkki</a> </p>
                 </Container>
             </Jumbotron>
 
@@ -543,27 +600,7 @@ ja Corona <span class="fa fa-star checked"></span>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
-                    <p>Vapaa-ajalla toteutettuja puisia koristetauluja elokuva ja peli aiheilla.</p>
-                </Container>
-            </Jumbotron>
-
-            <Jumbotron fluid>
-                <Container>
-                    <h3>Roki</h3>
-                    <Carousel>
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src={Roki}
-                                alt="Roki"
-                            />
-                            <Carousel.Caption>
-                                <h3 className="kuvateksti">Roki</h3>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                    </Carousel>
-                    <p>Koulun videoeditointi kurssilla tehty Rocky parodia video, käyttäen aiemmin TyöntaloNamolle kuvaamiani materiaaleja.
-                Pääosassa näyttelee Dennis Tammela. <a href="https://www.youtube.com/watch?v=xslfXvbqKrY">Linkki</a> </p>
+                    <p className="pt-3">Vapaa-ajalla toteutettuja puisia koristetauluja elokuva ja peli aiheilla.</p>
                 </Container>
             </Jumbotron>
 
@@ -576,7 +613,6 @@ ja Corona <span class="fa fa-star checked"></span>
                 <Container>
 
                     <ul className="list">
-                        <li>Tourukatu 12 40100 Jyväskylä</li>
                         <li>jesse.huttusen@hotmail.com</li>
                         <li>p. 044 264 8386</li>
                     </ul>
@@ -585,7 +621,8 @@ ja Corona <span class="fa fa-star checked"></span>
 
 
             <Container>
-                <p>Copyright © 2020 Jesse Huttunen</p>
+                <p className="pb-4">Copyright © 2021 Jesse Huttunen. </p>
+                <p className="pb-4">Nämä sivut on kirjoitettu perus HTML/CSS:llä, Reactilla, Bootstrapilla ja julkaistu Githubin pages alustalla.</p>
             </Container>
 
 
