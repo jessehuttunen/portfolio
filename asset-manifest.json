@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6b078376.chunk.css",
-    "main.js": "/portfolio/static/js/main.98cea7d2.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.98cea7d2.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.b23dc4fc.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b23dc4fc.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.eaa4d6fa.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.eaa4d6fa.js.map",
     "static/css/2.5b44f0a0.chunk.css": "/portfolio/static/css/2.5b44f0a0.chunk.css",
-    "static/js/2.ab8d6151.chunk.js": "/portfolio/static/js/2.ab8d6151.chunk.js",
-    "static/js/2.ab8d6151.chunk.js.map": "/portfolio/static/js/2.ab8d6151.chunk.js.map",
+    "static/js/2.a749c7b1.chunk.js": "/portfolio/static/js/2.a749c7b1.chunk.js",
+    "static/js/2.a749c7b1.chunk.js.map": "/portfolio/static/js/2.a749c7b1.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.ce809daaa3211a2d80e3568ef322bbcc.js": "/portfolio/precache-manifest.ce809daaa3211a2d80e3568ef322bbcc.js",
+    "precache-manifest.902f7e34858cf5bfc8d0e4611e4a4b05.js": "/portfolio/precache-manifest.902f7e34858cf5bfc8d0e4611e4a4b05.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.5b44f0a0.chunk.css.map": "/portfolio/static/css/2.5b44f0a0.chunk.css.map",
     "static/css/main.6b078376.chunk.css.map": "/portfolio/static/css/main.6b078376.chunk.css.map",
-    "static/js/2.ab8d6151.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ab8d6151.chunk.js.LICENSE.txt",
+    "static/js/2.a749c7b1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a749c7b1.chunk.js.LICENSE.txt",
     "static/media/25.jpg": "/portfolio/static/media/25.f5c9f244.jpg",
     "static/media/Laajakuva.png": "/portfolio/static/media/Laajakuva.bc9d5ae4.png",
+    "static/media/Norssialbumin_kannet.png": "/portfolio/static/media/Norssialbumin_kannet.0bcd2bf3.png",
+    "static/media/Vuosikertomus_kannet.png": "/portfolio/static/media/Vuosikertomus_kannet.d96c297a.png",
     "static/media/amk1.jpg": "/portfolio/static/media/amk1.15bc16aa.jpg",
     "static/media/amk2.jpg": "/portfolio/static/media/amk2.f4bf2f52.jpg",
     "static/media/amk3.jpg": "/portfolio/static/media/amk3.0160e399.jpg",
@@ -42,8 +44,8 @@
   "entrypoints": [
     "static/js/runtime-main.eaa4d6fa.js",
     "static/css/2.5b44f0a0.chunk.css",
-    "static/js/2.ab8d6151.chunk.js",
+    "static/js/2.a749c7b1.chunk.js",
     "static/css/main.6b078376.chunk.css",
-    "static/js/main.98cea7d2.chunk.js"
+    "static/js/main.b23dc4fc.chunk.js"
   ]
 }
